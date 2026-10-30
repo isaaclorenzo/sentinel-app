@@ -1,0 +1,12 @@
+# Entorno local y salidas generadas: nunca al repo
+.venv/
+.env
+output/
+
+# Sesiones de Google y catálogo local (por si GFLOW_CLI_HOME apunta aquí)
+profile_*/
+auth/
+*.cookies.json
+storage_state.json
+secrets.json
+gflow.db*

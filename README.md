@@ -8,6 +8,7 @@ PWA instalable (GitHub Pages, carpeta `docs/`) + puente Cloudflare Worker hacia 
 - `worker/worker.js` — puente solo-lectura. **Sin secretos en el código**: `INFLUX_URL`, `INFLUX_ORG`, `INFLUX_BUCKET`, `INFLUX_TOKEN` y `READ_KEY` se configuran como Worker Secrets.
 - `mobile/` — envoltorio Capacitor (solo se usa en CI para compilar el APK).
 - `.github/workflows/build-apk.yml` — compila el APK debug en la nube con cada push a `main`.
+- `gflow/` — herramienta aparte (no forma parte de la app): `gflow-cli` para generar imágenes/vídeos con Google Flow. Ver `gflow/README.md`.
 
 ## Seguridad
 

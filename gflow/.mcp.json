@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gflow": {
+      "command": "uv",
+      "args": ["run", "gflow", "mcp", "run", "--no-spend"]
+    }
+  }
+}

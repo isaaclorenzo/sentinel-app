@@ -1,0 +1,11 @@
+[project]
+name = "sentinel-gflow"
+version = "0.1.0"
+description = "Entorno aislado de gflow-cli (Google Flow: Veo/Imagen) para Sentinel"
+requires-python = ">=3.11"
+dependencies = [
+    "gflow-cli==0.92.0",
+]
+
+[tool.uv]
+package = false
